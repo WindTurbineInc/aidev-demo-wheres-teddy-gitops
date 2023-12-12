@@ -1,0 +1,15 @@
+app:
+  name: aidev-demo-wheres-teddy-app
+  namespace: aidev-demo
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/aidev-demo-wheres-teddy
+  org: WindTurbineInc
+  name: aidev-demo-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: aidev-demo/wheres-teddy-app
+  tag: latest
